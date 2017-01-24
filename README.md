@@ -1,1 +1,3 @@
 # cf-example-dockerfile-other-location
+
+[![Codefresh build status]( https://g.codefresh.io/api/badges/build?repoOwner=codefreshdemo&repoName=cf-example-dockerfile-other-location&branch=master&pipelineName=cf-example-dockerfile-other-location&accountName=nikolai&type=cf-1)]( https://g.codefresh.io/repositories/codefreshdemo/cf-example-dockerfile-other-location/builds?filter=trigger:build;branch:master;service:583836f2790f900100329099~cf-example-dockerfile-other-location)
