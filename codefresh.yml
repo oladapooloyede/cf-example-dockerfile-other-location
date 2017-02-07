@@ -1,7 +1,5 @@
 version: '1.0'
-
 steps:
-
   build_prj:
     type: build
     description: Build an Image by Specifying the Dockerfile Location
