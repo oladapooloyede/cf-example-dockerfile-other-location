@@ -1,8 +1,16 @@
 version: '1.0'
 steps:
-  build_prj:
+  main_clone:
+    title: Cloning main repository...
+    type: git-clone
+    repo: 'codefreshdemo/cf-example-dockerfile-other-location'
+    revision: 'master'
+    git: github
+  build_my_app:
+    title: Building Node.Js Docker Image
     type: build
-    description: Build an Image by Specifying the Dockerfile Location
-    image_name: codefreshio/yaml-example-specify-location
+    image_name: my-app
+    working_directory: '.'
+    tag: 'master'
     dockerfile: docker/Dockerfile
-    tag: ${{CF_BRANCH}}
+  
